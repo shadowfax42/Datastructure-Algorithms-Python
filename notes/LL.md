@@ -1,4 +1,3 @@
-
 ## Linked List
 
 ### Intro
@@ -12,14 +11,15 @@
 
 ### LL: Big $\mathcal{O}$
 
-![[Pasted image 20230605151452.png]]
+![LL vs List](.\Assets\Pasted_image_20230605151452.png)
 
 ### LL: Under the hood
 
-![[Pasted image 20230605151930.png]]
+![List](.\Assets\Pasted_image_20230605151930.png)
+
 is equivalent to
 
-![[Pasted image 20230605151908.png]]
+![under the hood](.\Assets\Pasted_image_20230605151908.png)
 
 ### LL: Constructor
 
@@ -63,7 +63,7 @@ my_linked_list = LinkedList(4)
 print(my_linked_list.head.value) # 4
 ```
 
-![[Pasted image 20230605153306.png]]
+![](.\Assets\Pasted_image_20230605153306.png)
 
 ```python
 def print_list(self):
@@ -91,5 +91,5 @@ def append(self, value):
 to pop a node, we will need to traverse the whole linked list until we read the node we need to remove
 
 - We have two edge cases:
-	- The first edge case is if we have an empty link list.
-	- And then the other edge case is if we only have one node in the list.
+  - The first edge case is if we have an empty link list.
+  - And then the other edge case is if we only have one node in the list.

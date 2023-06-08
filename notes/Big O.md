@@ -64,7 +64,7 @@ print_items(10)
 
 - This piece of code ran in $n\times n = n^2$ $\rightarrow \mathcal{O}(n^2)$
 
-![Time complexity](.\Assets\Pasted image 20230605123911.png)
+![Time complexity](.\Assets\Pasted_image_20230605123911.png)
 
 - So from the graph, we see that $\mathcal{O}(n^2)$ is much steeper than $\mathcal{O}(n)$, and this means it's a lot less efficient from a time complexity standpoint than that of $\mathcal{O}(n)$
 
@@ -101,8 +101,9 @@ def add_items(n):
 
 ### Big $\mathcal{O}$: $\mathcal{O}(\log n)$
 
-![Time complexity](.\Assets\Pasted image 20230605125545.png)
-![Time complexity](.\Assets\Pasted image 20230605125651.png)
+![Time complexity](.\Assets\Pasted_image_20230605125545.png)
+
+![Time complexity](.\Assets\Pasted_image_20230605125651.png)
 
 ### Big $\mathcal{O}$: Different Terms for Inputs
 
