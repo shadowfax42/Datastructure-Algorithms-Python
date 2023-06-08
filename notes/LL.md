@@ -11,11 +11,11 @@
 
 ### LL: Big $\mathcal{O}$
 
-![LL vs List](.\Assets\Pasted_image_20230605151452.png)
+![LL vs List](Assets/Pasted_image_20230605151452.png)
 
 ### LL: Under the hood
 
-![List](.\Assets\Pasted_image_20230605151930.png)
+![List](Assets/Pasted_image_20230605151930.png)
 
 is equivalent to
 
@@ -63,7 +63,7 @@ my_linked_list = LinkedList(4)
 print(my_linked_list.head.value) # 4
 ```
 
-![](.\Assets\Pasted_image_20230605153306.png)
+![](Assets/Pasted_image_20230605153306.png)
 
 ```python
 def print_list(self):
