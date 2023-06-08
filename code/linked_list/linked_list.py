@@ -121,56 +121,8 @@ class LinkedList:
 		return temp
 	
 	def reverse(self):
-
+		"WIP"
 		temp = self.head
 		# reverse head and tail
 		self.head, self.tail = self.tail, temp
-
-
-
-
-
-# TESTING
-my_linked_list = LinkedList(0)
-my_linked_list.append(1)
-my_linked_list.append(2)
-my_linked_list.append(3)
-my_linked_list.print_list()
-print("*******************************")
-my_linked_list.set_value(2, 100000)
-my_linked_list.print_list()
-print("*******************************")
-my_linked_list.insert(0, 13)
-my_linked_list.print_list()
-
-print("*******************************")
-my_linked_list.remove(2)
-my_linked_list.print_list()
-# my_linked_list.prepend(0)
-# print("\n----------------adding a node with 400 at the beginning--------------------")
-# my_linked_list.print_list()
-
-# my_linked_list.pop_first()
-# print("\n----------------Pop First (1)--------------------")
-# my_linked_list.print_list()
-
-# my_linked_list.pop_first()
-# print("\n----------------Pop First (2)--------------------")
-# my_linked_list.print_list()
-
-# print(my_linked_list.pop_first())
-# print("\n----------------Pop First (3)--------------------")
-# my_linked_list.print_list()
-
-
-# my_linked_list.pop()
-# print("\n----------------Popping when we have zero items--------------------")
-# my_linked_list.print_list()
-
-# my_linked_list.pop()
-# print("\n----------------Popping when we have zero items--------------------")
-# my_linked_list.print_list()
-
-# my_linked_list.prepend(500)
-# print("\n----------------adding a node with 400 at the beginning--------------------")
-# my_linked_list.print_list()
+		pass
